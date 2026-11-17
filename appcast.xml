@@ -1,2 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"><channel><title>Solis updates</title><link>https://github.com/YooTommy-CH/solis</link><description>Official Solis updates. Signed releases are published here when ready.</description><language>en</language></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Solis updates</title><link>https://github.com/YooTommy-CH/solis</link><description>Official Solis updates. Signed releases are published here when ready.</description><language>en</language></channel></rss><!-- sparkle-signatures:
+edSignature: oe+rmVrb+4niYEeXVNps8gD/P9x4FNmGe26+dKWKt0/f1iTEnGl1MHlVraqS3aLkzySB8A6dIFsFJlFd6V3eDA==
+length: 600
+-->
