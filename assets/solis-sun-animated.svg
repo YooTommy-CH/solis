@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="title desc">
+<title id="title">Il sole di Solis</title><desc id="desc">Sole con gradiente caldo, raggi morbidi e occhi che sbattono lentamente.</desc>
+<defs><linearGradient id="warm" x1="25%" y1="15%" x2="75%" y2="85%"><stop offset="0" stop-color="#ffde8f"/><stop offset=".5" stop-color="#f5bd91"/><stop offset="1" stop-color="#f59259"/></linearGradient></defs>
+<style>
+.breathe,.rays,.eyes{transform-box:view-box;transform-origin:50px 50px}.breathe{animation:breathe 6.4s ease-in-out infinite}.rays{animation:sway 6.4s ease-in-out infinite}.eyes{animation:blink 6.4s linear infinite}
+@keyframes breathe{0%,50%,100%{transform:scale(1)}25%{transform:scale(1.018)}75%{transform:scale(.982)}}
+@keyframes sway{0%,50%,100%{transform:rotate(0deg)}25%{transform:rotate(2deg)}75%{transform:rotate(-2deg)}}
+@keyframes blink{0%,95.3%,100%{transform:scaleY(1)}97.65%{transform:scaleY(.14)}}
+@media(prefers-reduced-motion:reduce){.breathe,.rays,.eyes{animation:none}}
+</style>
+<g class="rays" fill="none" stroke="url(#warm)" stroke-width="4" stroke-linecap="round"><path d="M86 50h7M75.46 75.46l4.95 4.95M50 86v7M24.54 75.46l-4.95 4.95M14 50H7M24.54 24.54l-4.95-4.95M50 14V7M75.46 24.54l4.95-4.95"/></g>
+<circle class="breathe" cx="50" cy="50" r="29" fill="url(#warm)"/>
+<g class="eyes" fill="#090b11" fill-opacity=".9"><rect x="38.2" y="43.5" width="5.6" height="13" rx="2.8"/><rect x="56.2" y="43.5" width="5.6" height="13" rx="2.8"/></g>
+</svg>
