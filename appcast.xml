@@ -1,32 +1,6 @@
-<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
-    <channel>
-        <title>Solis</title>
-        <item>
-            <title>0.1.1</title>
-            <pubDate>Tue, 17 Nov 2026 13:55:03 +0100</pubDate>
-            <sparkle:version>2</sparkle:version>
-            <sparkle:shortVersionString>0.1.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[# Solis 0.1.1 · Genesis
-
-- Nuova icona scelta dall’utente e sole animato con occhi nell’interfaccia.
-- Controlli e icone originali; titolo finestra corretto e impostazioni integrate.
-- Otto habitat animali ASCII, scena stellare e arte personalizzata; nome, palette, velocità, dimensioni, popolazione e scorciatoie modificabili.
-- Permessi Nessun accesso, Accesso minimo e Accesso totale. Ogni scelta dell’IA richiede comunque approvazione.
-- Solex crea progetti reali nella cartella scelta: ambiente e singoli file devono essere approvati. Nessuna sovrascrittura automatica.
-- Consenso revocabile prima dell’accesso alle estensioni.
-- Supporto dall’app per bug e feedback, inviati a contact@theprojectsunshine.com.
-- Aggiornamenti Sparkle verificati, installazione e riavvio con conferma, novità alla riapertura dopo un aggiornamento effettivo.
-
-Solex 0.1.1 scrive i file; esecuzione di comandi, compilazione automatica e automazione generale non sono ancora attive. La generazione richiede il modello locale configurato. La 0.1 iniziale non includeva Sparkle: per passare alla 0.1.1 occorre installare il DMG una prima volta.
-]]></description>
-            <enclosure url="https://github.com/YooTommy-CH/solis/releases/download/v0.1.1/Solis-0.1.1.dmg" length="5158249" type="application/octet-stream" sparkle:edSignature="f5WUHU4zD/0jAgYpjwG9SrJlV2M/h250YwDCdpKqeTTuK34CdkVW+KNg2nYxe3CcgSpRFUk5d/garRyhgFtRCw=="></enclosure>
-        </item>
-    </channel>
-</rss><!-- sparkle-signatures:
-edSignature: mrWocFK5pIjc9bNukIsqSMrtNVOFA7X0GSvFXrhcytqbeO+Sf+FkPPz+d2QN5NP4OLFoM85YUkMQHXP6mN3MDw==
-length: 2332
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Solis updates</title><link>https://github.com/YooTommy-CH/solis</link><description>Official Solis updates. Signed releases are published here when ready.</description><language>en</language></channel></rss><!-- sparkle-signatures:
+edSignature: oe+rmVrb+4niYEeXVNps8gD/P9x4FNmGe26+dKWKt0/f1iTEnGl1MHlVraqS3aLkzySB8A6dIFsFJlFd6V3eDA==
+length: 600
 -->
