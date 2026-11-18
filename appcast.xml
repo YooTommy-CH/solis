@@ -1,6 +1,34 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" standalone="yes"?><!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0"><channel><title>Solis updates</title><link>https://github.com/YooTommy-CH/solis</link><description>Official Solis updates. Signed releases are published here when ready.</description><language>en</language></channel></rss><!-- sparkle-signatures:
-edSignature: oe+rmVrb+4niYEeXVNps8gD/P9x4FNmGe26+dKWKt0/f1iTEnGl1MHlVraqS3aLkzySB8A6dIFsFJlFd6V3eDA==
-length: 600
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Solis</title>
+        <item>
+            <title>0.1.2</title>
+            <pubDate>Wed, 18 Nov 2026 12:59:13 +0100</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[# Solis 0.1.2 · Genesis
+
+- IA già inclusa: Qwen3 1.7B e il motore locale sono nel DMG. Nessuna installazione separata di Ollama, nessun download del modello e nessun comando da copiare dopo l’installazione.
+- Chat e Solex si scelgono in alto al centro. Chat resta una conversazione; i permessi operativi compaiono soltanto in Solex e ogni azione richiede approvazione.
+- Messaggi di Solis a sinistra, dell’utente a destra, con il nome scelto dall’utente.
+- Benvenuto facoltativo e profilo nelle impostazioni: nome, cognome, data di nascita con età calcolata, nazione, lavoro, informazioni e istruzioni personali. L’uso nelle risposte è facoltativo.
+- Progetti con conversazioni collegate, istruzioni, memoria approvata e materiali condivisi. I riferimenti mostrano quali altre chat sono state incluse nel contesto; i progetti rimangono separati.
+- Allegati locali: immagini, PDF, testo, codice, CSV, DOCX e primo foglio XLSX. Selezione, trascinamento, immagini dagli appunti e anteprima. Fino a 8 file per messaggio, 25 MB ciascuno.
+- Le immagini usano riconoscimento del testo OCR: il modello incluso è testuale e non interpreta visivamente fotografie o grafici.
+- Gli animali ASCII viaggiano autonomamente, senza seguire il puntatore.
+- Cerchietto Sunshine che segue il cursore e si espande sui controlli attivi; disattivabile e rispettoso di Riduci movimento.
+- Migrazione delle conversazioni e delle preferenze precedenti. Supporto integrato aggiornato alla nuova versione.
+
+Solex scrive nuovi file dopo le approvazioni; compilazione, avvio di app, comandi di sistema e installazione delle dipendenze non sono ancora automatici. Il contesto condiviso usa estratti pertinenti entro i limiti del modello, non l’intera cronologia senza limiti. Il DMG completo è più grande perché contiene già il modello.
+]]></description>
+            <enclosure url="https://github.com/YooTommy-CH/solis/releases/download/v0.1.2/Solis-0.1.2.dmg" length="1778861290" type="application/octet-stream" sparkle:edSignature="hLAOCU9T8OhkEolkVtSSLzt3nxtZMdzMtJxWVZlVMS2x7lxixo6S6wSUhtPl6B+llAoxlYS9zTN2xQFhsRSmAA=="></enclosure>
+        </item>
+    </channel>
+</rss><!-- sparkle-signatures:
+edSignature: oS/CY040rs7xCo27ZlPVnCUH7CkfFULG+O5DQnfMrbOtD9gTs7iWrVC79SkYIg6y/JK3hW2JwCwJ29idpdY6Aw==
+length: 3020
 -->
