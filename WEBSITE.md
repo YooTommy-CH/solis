@@ -1,17 +1,11 @@
-# Materiali Solis per il sito
+# Materiali Solis 0.1.2
 
-Copia `assets/` nella cartella pubblica del sito. `index.html` è una pagina di presentazione pronta, responsive e indipendente da librerie, da adattare o integrare nel sito. Nessun servizio viene pubblicato automaticamente.
+Copia assets/ nel sito e adatta index.html, senza librerie esterne. L’icona ufficiale è solis-app-icon.png, sole fra onde di vetro. Il segno interno è solis-sun-animated.svg, trasparente e sensibile a Riduci movimento, oppure la GIF con fondo scuro per GitHub. solis-sun-poster.png è l’alternativa statica alla GIF, che da sola non può rispettare Riduci movimento.
 
-- `solis-app-icon.png`: icona ufficiale fornita e approvata, con luci e colori rifiniti, trasparenza esterna; 1254 × 1254.
-- `solis-sun-animated.svg`: segno interno originale, vettoriale e trasparente, gradiente, respiro e battito degli occhi; rispetta `prefers-reduced-motion`.
-- `solis-sun-animated.gif`: stessa direzione visiva, 192 × 192, 128 fotogrammi a 20 fps, ciclo di 6,4 secondi; fondo scuro. Adatta anche a GitHub.
-- `solis-sun-poster.png`: immagine statica alternativa alla GIF.
-- `solis-home.png`, `solis-personalization.png`, `solis-solex.png`, `solis-support.png`: viste della versione 0.1.1. Render fuori schermo con superficie opaca di accessibilità; non riproducono la rifrazione del glass.
+Le schermate solis-home, chat, projects, profile, welcome, solex, personalization e support sono della 0.1.2. Sono render fuori schermo con fallback opaco; chat e progetti sono esempi dimostrativi. Non usarle come prova di risposte del modello o della rifrazione glass.
 
-Per il sito preferisci l’SVG con `<img src="assets/solis-sun-animated.svg" width="96" height="96" alt="Il sole di Solis">`. Per la GIF offri una versione statica quando Riduci movimento è attivo. La GIF non può adattarsi da sola a questa preferenza.
+Il download punta alla release GitHub 0.1.2 completa. Qwen3 e motore sono già inclusi: non aggiungere istruzioni per installare Ollama o scaricare il modello. Mantieni visibili il limite OCR delle immagini e l’assenza di compilazione/esecuzione automatica in Solex. Il contesto dei progetti usa estratti, non memoria illimitata.
 
-Il logo dell’app è il sole con le onde, in PNG. Il sole con gli occhi è il segno animato dell’interfaccia: le due immagini hanno ruoli distinti. Nessuna lettera viene usata come simbolo.
-
-I testi del README descrivono solo funzioni effettivamente presenti. Mantieni visibili i limiti di Solex 0.1.1 e i requisiti di Ollama. Collega il download alla release GitHub, evitando di distribuire pacchetti modificati dopo firma e notarizzazione.
+Nessun file di questo kit viene pubblicato automaticamente sul sito. Il kit non include i sorgenti privati dell’app. I pacchetti firmati non vanno modificati dopo la notarizzazione.
 
 © 2026 The Project Sunshine. Solis. Tutti i diritti riservati.
